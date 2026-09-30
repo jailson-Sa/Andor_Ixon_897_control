@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+dist/
+
+# Acquisition outputs
+andor_data/
+out_real*/
+out_mock*/
+gui_output/
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.tif
+*.tiff
+
+# Vendor/proprietary binaries
+*.dll
+*.lib
+*.exe
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
