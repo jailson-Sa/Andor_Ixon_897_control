@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andor-ixon897-control"
+version = "0.7.0"
+description = "Professional scientific Andor SDK2 control, acquisition, quick auto-calibration, scientific units and photon-counting GUI for Andor iXon 897 EMCCD"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+include = ["andor_control*"]
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.6", "pyqtgraph>=0.13", "h5py>=3.10"]
